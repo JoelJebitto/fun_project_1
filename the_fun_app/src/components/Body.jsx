@@ -1,3 +1,3 @@
-export default function () {
-  return <div></div>;
+export default function Body() {
+  return <div>hello</div>;
 }

@@ -1,22 +1,22 @@
 export default function Header() {
   return (
     <header>
-      <nav class="bg-gray-500 rounded-2xl mx-5 mt-5 border-gray-200 px-4 lg:px-6 py-2.5 ">
+      <nav class="bg-gray-500 shadow-xl hover:shadow-2xl rounded-2xl mx-5 mt-5 border-gray-200 px-4 lg:px-6 py-2.5 ">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <a href="https://flowbite.com" class="flex items-center">
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          <a href="/" class="flex items-center">
+            <span class="self-center text-xl font-semibold hover:text-gray-100 whitespace-nowrap text-gray-200">
               AniWorld
             </span>
           </a>
           <div class="flex items-center lg:order-2">
             <a
-              href="#"
+              href="/login"
               class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
             >
               Log in
             </a>
             <a
-              href="#"
+              href="/register"
               class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
             >
               Sign Up
@@ -62,7 +62,7 @@ export default function Header() {
             <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
                 <a
-                  href="#"
+                  href="/ani_cards"
                   class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                   aria-current="page"
                 >
@@ -71,7 +71,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/ani_quotes"
                   class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                   aria-current="page"
                 >

@@ -5,7 +5,14 @@ const Landing = () => {
   return (
     <>
       <Header />
-      hi
+      <div className="flex">
+        <div className="flex-1"/>
+        <div className="h-screen m-5 w-1/2  bg-white/30 rounded-2xl justify-end ">
+
+        </div> 
+      
+
+      </div>
     </>
   );
 };

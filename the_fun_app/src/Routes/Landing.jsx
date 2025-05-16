@@ -1,7 +1,13 @@
 import React from "react";
+import Header from "../components/Header.jsx";
 
 const Landing = () => {
-  return <div>Landing</div>;
+  return (
+    <>
+      <Header />
+      hi
+    </>
+  );
 };
 
 export default Landing;

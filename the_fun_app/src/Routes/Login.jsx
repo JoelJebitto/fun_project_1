@@ -12,24 +12,24 @@ export default function Login() {
               Login
             </h1>
 
-            <form class="max-w-md mt-10 mx-5 space-y-4">
+            <form className="max-w-md mt-10 mx-5 space-y-4">
               <input
                 type="text"
                 name="username"
                 placeholder="Username"
-                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
 
               <input
                 type="password"
                 name="password"
                 placeholder="Password"
-                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
 
               <button
                 type="submit"
-                class="w-full shadow-md hover:shadow-lg bg-blue-600 text-white py-3 rounded-md font-semibold hover:bg-blue-700"
+                className="w-full shadow-md hover:shadow-lg bg-blue-600 text-white py-3 rounded-md font-semibold hover:bg-blue-700"
               >
                 Login
               </button>

@@ -4,9 +4,9 @@ const Landing = () => {
   return (
     <>
       <div className="flex text-gray-100">
-        <div className="flex-1" />
-        <div className="flex flex-1 flex-col h-screen">
-          <div className="flex-10 justify-center m-5 h-1/2 shadow-xl hover:shadow-2xl border-gray-600 border-2 bg-gray-600/80 rounded-2xl ">
+        <div className="flex-4" />
+        <div className="flex flex-3 flex-col h-screen ">
+          <div className="flex-11 w-3/4 justify-center px-5 m-5 h-1/2 shadow-xl hover:shadow-2xl border-gray-600 border-2 bg-gray-600/80 rounded-2xl ">
             <img
               src="/c5.jpeg"
               alt=""

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Login() {
   return (
     <>
@@ -34,9 +36,9 @@ export default function Login() {
             </form>
             <p className="m-7">
               if you don't have a account{" "}
-              <a href="/register" className="font-bold">
+              <Link to="/signup" className="font-bold">
                 <b>Sign Up</b>
-              </a>
+              </Link>
             </p>
           </div>
           <div className="flex-2" />

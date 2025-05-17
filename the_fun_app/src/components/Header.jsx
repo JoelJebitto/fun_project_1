@@ -1,36 +1,37 @@
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <header>
-      <nav class="bg-gray-500 shadow-xl hover:shadow-2xl rounded-2xl mx-5 mt-5 border-gray-200 px-4 lg:px-6 py-2.5 ">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <a href="/" class="flex items-center">
-            <span class="self-center text-xl font-semibold hover:text-gray-100 whitespace-nowrap text-gray-200">
+      <nav className="bg-gray-500 shadow-xl hover:shadow-2xl rounded-2xl mx-5 mt-5 border-gray-200 px-4 lg:px-6 py-2.5 ">
+        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+          <Link to="/" className="flex items-center">
+            <span className="self-center text-xl font-semibold hover:text-gray-100 whitespace-nowrap text-gray-200">
               AniWorld
             </span>
-          </a>
-          <div class="flex items-center lg:order-2">
-            <a
-              href="/login"
-              class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+          </Link>
+          <div className="flex items-center lg:order-2">
+            <Link
+              to="/login"
+              className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
             >
               Log in
-            </a>
-            <a
-              href="/register"
-              class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+            </Link>
+            <Link
+              to="/signup"
+              className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
             >
               Sign Up
-            </a>
+            </Link>
             <button
               data-collapse-toggle="mobile-menu-2"
               type="button"
-              class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="mobile-menu-2"
               aria-expanded="false"
             >
-              <span class="sr-only">Open main menu</span>
+              <span className="sr-only">Open main menu</span>
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +43,7 @@ export default function Header() {
                 ></path>
               </svg>
               <svg
-                class="hidden w-6 h-6"
+                className="hidden w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,27 +57,27 @@ export default function Header() {
             </button>
           </div>
           <div
-            class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+            className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
             id="mobile-menu-2"
           >
-            <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
-                <a
-                  href="/ani_cards"
-                  class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                <Link
+                  to="/ani_cards"
+                  className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                   aria-current="page"
                 >
                   AniCards
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/ani_quotes"
-                  class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                <Link
+                  to="/ani_quotes"
+                  className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                   aria-current="page"
                 >
                   AniQuotes
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

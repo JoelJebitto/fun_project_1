@@ -9,18 +9,16 @@ import Login from "./Routes/Login.jsx";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Router>
-        <Routes>
-          <Route path={"/"} element={<Landing />}></Route>
-          <Route path={"/register"} element={<Signup />}></Route>
-          <Route path={"/ani_cards"} element={<AniCards />}></Route>
-          <Route path={"/ani_quotes"} element={<AniQuotes />}></Route>
-          <Route path={"/login"} element={<Login />}></Route>
-        </Routes>
-      </Router>
-    </div>
+      <Routes>
+        <Route path={"/"} element={<Landing />}></Route>
+        <Route path={"/signup"} element={<Signup />}></Route>
+        <Route path={"/ani_cards"} element={<AniCards />}></Route>
+        <Route path={"/ani_quotes"} element={<AniQuotes />}></Route>
+        <Route path={"/login"} element={<Login />}></Route>
+      </Routes>
+    </>
   );
 }
 

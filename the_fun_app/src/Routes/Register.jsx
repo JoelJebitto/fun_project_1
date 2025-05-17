@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Signup() {
   return (
     <>
@@ -41,9 +43,9 @@ export default function Signup() {
             </form>
             <p className="m-7">
               if you have a account{" "}
-              <a href="/login" className="font-bold">
+              <Link to="/login" className="font-bold">
                 <b>Sign In</b>
-              </a>
+              </Link>
             </p>
           </div>
           <div className="flex-2" />

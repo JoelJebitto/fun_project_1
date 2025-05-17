@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -16,13 +17,13 @@ const Landing = () => {
             <h1 className="text-4xl font-bold mb-2 mt-7 text-center p-4 ">
               Welcome To AniWorld
             </h1>
-            <p class="text-base text-center mt-2 mb-7">
+            <p className="text-base text-center mt-2 mb-7">
               This is a short description that gives more context or detail
               below the heading.
             </p>
 
-            <button class="bg-gray-300 mx-auto block mt-7 shadow-mb hover:shadow-lg text-gray-900 text-lg text-center font-semibold py-3 px-6 rounded-lg hover:bg-gray-200">
-              <a href="/ani_cards">Go to Main Site</a>
+            <button className="bg-gray-300 mx-auto block mt-7 shadow-mb hover:shadow-lg text-gray-900 text-lg text-center font-semibold py-3 px-6 rounded-lg hover:bg-gray-200">
+              <Link to="/ani_cards">Go to Main Site</Link>
             </button>
           </div>
           <div className="flex-1" />

@@ -6,7 +6,7 @@ import AniCards from "./Routes/AniCards.jsx";
 import Header from "./components/Header.jsx";
 import AniQuotes from "./Routes/AniQuotes.jsx";
 import Login from "./Routes/Login.jsx";
-
+import Profile from "./Routes/Profile.jsx";
 function App() {
   return (
     <>
@@ -17,6 +17,7 @@ function App() {
         <Route path={"/ani_cards"} element={<AniCards />}></Route>
         <Route path={"/ani_quotes"} element={<AniQuotes />}></Route>
         <Route path={"/login"} element={<Login />}></Route>
+        <Route path={"/profile"} element={<Profile />}></Route>
       </Routes>
     </>
   );

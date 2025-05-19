@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Login() {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   return (
     <>
       <div className="flex text-gray-100">
@@ -18,6 +21,9 @@ export default function Login() {
                 name="username"
                 placeholder="Username"
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                onChange={(e) => {
+                  setUsername(e.target.value);
+                }}
               />
 
               <input
@@ -25,11 +31,35 @@ export default function Login() {
                 name="password"
                 placeholder="Password"
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                }}
               />
 
               <button
                 type="submit"
                 className="w-full shadow-md hover:shadow-lg bg-blue-600 text-white py-3 rounded-md font-semibold hover:bg-blue-700"
+                onClick={(e) => {
+                  e.preventDefault();
+                  fetch("http://localhost:3000/login", {
+                    method: "POST",
+                    body: JSON.stringify({
+                      username,
+                      password,
+                    }),
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                  })
+                    .then((res) => {
+                      return res.json();
+                    })
+                    .then((data) => {
+                      console.log(data);
+                      alert(data.message);
+                      localStorage.setItem("token", data.token);
+                    });
+                }}
               >
                 Login
               </button>

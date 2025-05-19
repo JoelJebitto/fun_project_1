@@ -29,6 +29,7 @@ const authJWT = (req, res, next) => {
 };
 const userSchema = mongoose.Schema({
   username: String,
+  email: String,
   password: String,
 });
 
@@ -36,16 +37,16 @@ const USERS = mongoose.model("Users", userSchema);
 
 mongoose.connect("mongodb+srv://vaibhavm:0718@aniworld.hzcbsw4.mongodb.net/");
 
-app.post("/signup", async (req, res) => {
-  const { username, password } = req.body;
+app.post("/register", async (req, res) => {
+  const { email, username, password } = req.body;
   const admin = await USERS.findOne({ username });
   if (!admin) {
-    const newAdmin = new USERS({ username, password });
+    const newAdmin = new USERS({ username, email, password });
     const token = JWT.sign(username, SECRET);
     await newAdmin.save();
     res.send({ message: "Admin created successfully!!", token: token });
   } else {
-    res.status(403).send({ message: "Admin already exists!!" });
+    res.status(403).send({ message: "Username already exists!!" });
   }
 });
 

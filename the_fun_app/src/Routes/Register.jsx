@@ -1,6 +1,11 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Signup() {
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
   return (
     <>
       <div className="flex text-gray-100">
@@ -18,6 +23,9 @@ export default function Signup() {
                 name="username"
                 placeholder="Username"
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                onChange={(e) => {
+                  setUsername(e.target.value);
+                }}
               />
 
               <input
@@ -25,6 +33,9 @@ export default function Signup() {
                 name="email"
                 placeholder="Email"
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
               />
 
               <input
@@ -32,11 +43,36 @@ export default function Signup() {
                 name="password"
                 placeholder="Password"
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                }}
               />
 
               <button
                 type="submit"
                 className="w-full shadow-md hover:shadow-lg bg-blue-600 text-white py-3 rounded-md font-semibold hover:bg-blue-700"
+                onClick={(e) => {
+                  e.preventDefault();
+                  fetch("http://localhost:3000/register", {
+                    method: "POST",
+                    body: JSON.stringify({
+                      username,
+                      email,
+                      password,
+                    }),
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                  })
+                    .then((res) => {
+                      return res.json();
+                    })
+                    .then((data) => {
+                      console.log(data);
+                      alert(data.message);
+                      localStorage.setItem("token", data.token);
+                    });
+                }}
               >
                 Register
               </button>

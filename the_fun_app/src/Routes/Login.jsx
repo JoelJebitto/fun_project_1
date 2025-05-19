@@ -58,6 +58,7 @@ export default function Login() {
                       console.log(data);
                       alert(data.message);
                       localStorage.setItem("token", data.token);
+                      window.location = "/";
                     });
                 }}
               >

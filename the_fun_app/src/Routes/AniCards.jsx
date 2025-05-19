@@ -9,7 +9,11 @@ export default function AniCard() {
       <SearchBar />
       {/* INFO Content AREA */}
       <div className="flex flex-10 space-x-5">
-        <CustemList />
+        <div className="flex-2 flex h-screen flex-col">
+          <CustemList />
+          <div className="flex-1" />
+        </div>
+
         <CardsList />
       </div>
     </div>

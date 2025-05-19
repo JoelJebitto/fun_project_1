@@ -37,8 +37,16 @@ const userSchema = mongoose.Schema({
   email: String,
   password: String,
 });
+const cardSchema = mongoose.Schema({
+  name: String,
+  anime: String,
+  image: String,
+  DOB: Date,
+  info: String,
+});
 
 const USERS = mongoose.model("Users", userSchema);
+const CARDS = mongoose.model("Cards", cardSchema);
 
 mongoose.connect("mongodb+srv://vaibhavm:0718@aniworld.hzcbsw4.mongodb.net/");
 

@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Naruto Uzumaki",
+    "anime": "Naruto",
+    "image": "https://example.com/images/naruto.jpg",
+    "DOB": "1999-10-10T00:00:00",
+    "info": "A ninja of the Hidden Leaf Village with dreams of becoming Hokage."
+  },
+  {
+    "name": "Goku",
+    "anime": "Dragon Ball",
+    "image": "https://example.com/images/goku.jpg",
+    "DOB": "0737-04-16T00:00:00",
+    "info": "A Saiyan raised on Earth, known for his strength and pure heart."
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "anime": "One Piece",
+    "image": "https://example.com/images/luffy.jpg",
+    "DOB": "1505-05-05T00:00:00",
+    "info": "Captain of the Straw Hat Pirates, dreaming of finding the One Piece."
+  },
+  {
+    "name": "Sasuke Uchiha",
+    "anime": "Naruto",
+    "image": "https://example.com/images/sasuke.jpg",
+    "DOB": "1999-07-23T00:00:00",
+    "info": "A skilled ninja from the Uchiha clan driven by revenge."
+  },
+  {
+    "name": "Levi Ackerman",
+    "anime": "Attack on Titan",
+    "image": "https://example.com/images/levi.jpg",
+    "DOB": "1980-12-25T00:00:00",
+    "info": "A captain in the Survey Corps, known as humanity's strongest soldier."
+  },
+  {
+    "name": "Ichigo Kurosaki",
+    "anime": "Bleach",
+    "image": "https://example.com/images/ichigo.jpg",
+    "DOB": "1995-07-15T00:00:00",
+    "info": "A teenager who becomes a Soul Reaper to protect the living from evil spirits."
+  },
+  {
+    "name": "Light Yagami",
+    "anime": "Death Note",
+    "image": "https://example.com/images/light.jpg",
+    "DOB": "1986-02-28T00:00:00",
+    "info": "A high school student who gains the power to kill anyone by writing their name."
+  },
+  {
+    "name": "Edward Elric",
+    "anime": "Fullmetal Alchemist",
+    "image": "https://example.com/images/edward.jpg",
+    "DOB": "1899-01-01T00:00:00",
+    "info": "A young alchemist searching for the Philosopher's Stone to restore his brother's body."
+  },
+  {
+    "name": "Killua Zoldyck",
+    "anime": "Hunter x Hunter",
+    "image": "https://example.com/images/killua.jpg",
+    "DOB": "2001-07-07T00:00:00",
+    "info": "An assassin from a notorious family who befriends Gon on his journey."
+  },
+  {
+    "name": "Gon Freecss",
+    "anime": "Hunter x Hunter",
+    "image": "https://example.com/images/gon.jpg",
+    "DOB": "2000-05-05T00:00:00",
+    "info": "A boy who becomes a Hunter to find his father."
+  },
+  {
+    "name": "Saitama",
+    "anime": "One Punch Man",
+    "image": "https://example.com/images/saitama.jpg",
+    "DOB": "1990-01-01T00:00:00",
+    "info": "A hero who can defeat any opponent with one punch."
+  },
+  {
+    "name": "Todoroki Shoto",
+    "anime": "My Hero Academia",
+    "image": "https://example.com/images/todoroki.jpg",
+    "DOB": "2000-01-11T00:00:00",
+    "info": "A student hero with the power of ice and fire."
+  },
+  {
+    "name": "Izuku Midoriya",
+    "anime": "My Hero Academia",
+    "image": "https://example.com/images/midoriya.jpg",
+    "DOB": "2000-07-15T00:00:00",
+    "info": "A quirkless boy who inherits One For All to become a hero."
+  },
+  {
+    "name": "Tanjiro Kamado",
+    "anime": "Demon Slayer",
+    "image": "https://example.com/images/tanjiro.jpg",
+    "DOB": "1900-07-14T00:00:00",
+    "info": "A kind-hearted demon slayer fighting to cure his sister."
+  },
+  {
+    "name": "Nezuko Kamado",
+    "anime": "Demon Slayer",
+    "image": "https://example.com/images/nezuko.jpg",
+    "DOB": "1901-12-28T00:00:00",
+    "info": "Tanjiro's sister turned into a demon, fighting her urges to help humans."
+  },
+  {
+    "name": "Itachi Uchiha",
+    "anime": "Naruto",
+    "image": "https://example.com/images/itachi.jpg",
+    "DOB": "1984-06-09T00:00:00",
+    "info": "A complex ninja who sacrificed everything for peace."
+  },
+  {
+    "name": "Kakashi Hatake",
+    "anime": "Naruto",
+    "image": "https://example.com/images/kakashi.jpg",
+    "DOB": "1985-09-15T00:00:00",
+    "info": "A copy ninja and former leader of Team 7."
+  },
+  {
+    "name": "Vegeta",
+    "anime": "Dragon Ball",
+    "image": "https://example.com/images/vegeta.jpg",
+    "DOB": "0732-08-14T00:00:00",
+    "info": "A Saiyan prince and rival to Goku."
+  },
+  {
+    "name": "Rem",
+    "anime": "Re:Zero",
+    "image": "https://example.com/images/rem.jpg",
+    "DOB": "2000-02-02T00:00:00",
+    "info": "A loyal maid who develops strong feelings for Subaru."
+  },
+  {
+    "name": "Emilia",
+    "anime": "Re:Zero",
+    "image": "https://example.com/images/emilia.jpg",
+    "DOB": "1999-09-23T00:00:00",
+    "info": "A half-elf girl vying to be the next ruler of Lugnica."
+  },
+  {
+    "name": "Spike Spiegel",
+    "anime": "Cowboy Bebop",
+    "image": "https://example.com/images/spike.jpg",
+    "DOB": "2044-06-26T00:00:00",
+    "info": "A bounty hunter with a haunted past."
+  },
+  {
+    "name": "Zero Two",
+    "anime": "Darling in the Franxx",
+    "image": "https://example.com/images/zerotwo.jpg",
+    "DOB": "2000-02-27T00:00:00",
+    "info": "A mysterious girl known as the Partner Killer."
+  },
+  {
+    "name": "Eren Yeager",
+    "anime": "Attack on Titan",
+    "image": "https://example.com/images/eren.jpg",
+    "DOB": "2000-03-30T00:00:00",
+    "info": "A determined youth who vows to destroy all titans."
+  },
+  {
+    "name": "Mikasa Ackerman",
+    "anime": "Attack on Titan",
+    "image": "https://example.com/images/mikasa.jpg",
+    "DOB": "2000-02-10T00:00:00",
+    "info": "Eren's adopted sister and elite soldier."
+  },
+  {
+    "name": "Rukia Kuchiki",
+    "anime": "Bleach",
+    "image": "https://example.com/images/rukia.jpg",
+    "DOB": "1501-01-14T00:00:00",
+    "info": "A Soul Reaper who gives Ichigo his powers."
+  },
+  {
+    "name": "Saber",
+    "anime": "Fate/stay night",
+    "image": "https://example.com/images/saber.jpg",
+    "DOB": "1100-01-01T00:00:00",
+    "info": "A heroic spirit summoned to fight in the Holy Grail War."
+  },
+  {
+    "name": "Shinra Kusakabe",
+    "anime": "Fire Force",
+    "image": "https://example.com/images/shinra.jpg",
+    "DOB": "2000-10-29T00:00:00",
+    "info": "A firefighter with the power of igniting his feet."
+  },
+  {
+    "name": "Ken Kaneki",
+    "anime": "Tokyo Ghoul",
+    "image": "https://example.com/images/kaneki.jpg",
+    "DOB": "1998-12-20T00:00:00",
+    "info": "A college student turned half-ghoul after a transplant."
+  },
+  {
+    "name": "Rintarou Okabe",
+    "anime": "Steins;Gate",
+    "image": "https://example.com/images/okabe.jpg",
+    "DOB": "1991-12-14T00:00:00",
+    "info": "A self-proclaimed mad scientist who discovers time travel."
+  },
+  {
+    "name": "Yato",
+    "anime": "Noragami",
+    "image": "https://example.com/images/yato.jpg",
+    "DOB": null,
+    "info": "A minor god striving to become famous and build his shrine."
+  }
+]
